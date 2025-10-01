@@ -32,7 +32,7 @@ const chatbotSteps = {
       "You can treat these yourself:\n" +
       "- Nose block: NASIVION-S saline nasal drops/spray before feeds\n" +
       "- Abdominal colic: burp well, hold child over shoulder\n" +
-      "- Rash in skin folds: CANDID cream twice daily for 3 weeks\n" +
+      "- Rash in skin folds: CANDID (clotrimazole) cream twice daily for 3 weeks\n" +
       "- Fever post-vaccine: consult fever chatbot",
     options: [{ label: "Restart", next: "step1" }]
   },
@@ -42,7 +42,7 @@ const chatbotSteps = {
     message:
       "For cough, fever, vomit, loose motions consult chatbot.\n" +
       "- Earache: Otogesic ear drops, 2 drops each ear\n" +
-      "- Rash in skin folds: CANDID cream twice daily for 3 weeks\n" +
+      "- Rash in skin folds: CANDID (clotrimazole)cream twice daily for 3 weeks\n" +
       "- Running nose: no medicine needed\n" +
       "- Dry skin: moisturizer 4× daily for 1 week",
     options: [{ label: "Restart", next: "step1" }]
@@ -53,7 +53,7 @@ const chatbotSteps = {
     message:
       "For cough, fever, vomit, loose motions consult chatbot.\n" +
       "- Earache: Otogesic ear drops, 2 drops each ear\n" +
-      "- Rash in skin folds: CANDID cream twice daily for 3 weeks\n" +
+      "- Rash in skin folds: CANDID (clotrimazole) cream twice daily for 3 weeks\n" +
       "- Wheals/hives: ALERID 2.5 ml at night for 4 days\n" +
       "- Running nose: no medicine needed\n" +
       "- Dry skin: moisturizer 4× daily for 1 week",
@@ -65,7 +65,7 @@ const chatbotSteps = {
     message:
       "For cough, fever, vomit, loose motions consult chatbot.\n" +
       "- Earache: Otogesic ear drops, 2 drops each ear\n" +
-      "- Rash in skin folds: CANDID cream twice daily for 3 weeks\n" +
+      "- Rash in skin folds: CANDID (clotrimazole) cream twice daily for 3 weeks\n" +
       "- Wheals/hives/allergies: ALERID 5 ml at night for 4 days\n" +
       "- Stomach pain: CYCLOPAM syrup 2.5 ml every 8h\n" +
       "- Running nose: CORIMINIC drops, 10 drops 3× daily for 3 days",
@@ -87,7 +87,7 @@ const chatbotSteps = {
     message:
       "For cough, fever, vomit, loose motions consult chatbot.\n" +
       "- Earache: Otogesic ear drops, 2 drops each ear\n" +
-      "- Wheals/hives/allergies: ALERID 10 ml at night for 4 days\n" +
+      "- Wheals/hives/allergies/running nose: ALERID 10 ml at night for 4 days\n" +
       "- Stomach pain: CYCLOPAM syrup 7.5 ml every 8h",
     options: [{ label: "Restart", next: "step1" }]
   },
@@ -97,7 +97,7 @@ const chatbotSteps = {
     message:
       "For cough, fever, vomit, loose motions consult chatbot.\n" +
       "- Earache: Otogesic ear drops, 2 drops each ear\n" +
-      "- ALLEGRA 120 mg, 1 tab at night for 4 days\n" +
+      "- allergies/cold: ALLEGRA 120 mg, 1 tab at night for 4 days\n" +
       "- COLIMEX (dicyclomine) 6, one tablet if stomach pain",
     options: [{ label: "Restart", next: "step1" }]
   },
@@ -107,7 +107,7 @@ const chatbotSteps = {
     message:
       "For cough, fever, vomit, loose motions consult chatbot.\n" +
       "- Earache: Otogesic ear drops, 2 drops each ear\n" +
-      "- ALLEGRA 120 mg, 1½ tabs at night for 4 days\n" +
+      "- cold/allergies: ALLEGRA 120 mg, 1½ tabs at night for 4 days\n" +
       "- COLIMEX (dicyclomine) 6, one tablet if stomach pain",
     options: [{ label: "Restart", next: "step1" }]
   }
