@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Safety Checker</title>
+  <link rel="stylesheet" href="landing.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <!-- Landing Page -->
+  <div id="landing" class="landing-container">
+    <h1>Concerned about your home's safety?</h1>
+    <p>Use this tool to quickly assess safety hazards by area or by your child's age.</p>
+    <button id="start-chat">Start Chat</button>
+  </div>
+
+  <!-- Chatbot Container (hidden by default) -->
+  <div id="chatbot" class="chat-container" style="display:none;">
+    <div id="chat-window" class="chat-window"></div>
+    <div id="options" class="options"></div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
